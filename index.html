@@ -6,6 +6,8 @@
     <link href="style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
     <title>Chas Academy Website</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
 </head>
 <body>
     <!--Header-->
@@ -61,7 +63,7 @@
   <div class="hero-text">
     <h1>Chas Academy - One step closer to a career in IT</h1>
     <p>Chas Academy is a vocational college that prepares you for a working life in IT. Do you want to join the journey to the world's best industry?<br/><br/></p>
-    <button>submit</button>
+    <div id="button-root"></div>
 
   </div>
 </div>
@@ -100,14 +102,12 @@
 
     </main>
     footer
-        <div id="root"></div>
+    <div id="root"></div>
 
     <footer>
 
     </footer>
- <script src="Components/toggle.js"></script> 
-     <script type="module" src="/Components/main.jsx"></script>
-  
-
+    <script src="Components/toggle.js"></script>
 </body>
+
 </html>
